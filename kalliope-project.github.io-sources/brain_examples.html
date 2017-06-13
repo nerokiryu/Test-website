@@ -1,0 +1,37 @@
+---
+title: Kalliope
+---
+{% include header.html %}
+{% include navbar.html %}
+<div class="container">
+    <div class="well">
+        <p class="lead">
+            Join the community and add your own videos to
+            <a href="https://github.com/kalliope-project/kalliope-project.github.io/blob/sources/_data/brain_examples.yml">
+            the list
+            </a>!
+        </p>
+    </div>
+
+    {% for brain_example in site.data.brain_examples %}
+    <div class="well">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>{{ brain_example.title }}</h2>
+                <p>{{ brain_example.description }}</p>
+                <a href="{{ brain_example.git_repo }}" class="btn btn-raised btn-primary">
+                    Repository<div class="ripple-container"></div>
+                </a>
+
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="{{ brain_example.video_url }}"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+{% include footer.html %}

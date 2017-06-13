@@ -1,0 +1,184 @@
+- neuron_name: Facebook
+  description: Post and Read message on Facebook
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_facebook
+  logo: facebook.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/AzNIgpTC9YU
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: Gmail
+  description: Get the number of unread email and their subjects from a gmail account
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_gmail
+  logo: gmail.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/eYM-T_qgN60
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: Google_agenda
+  description: Get your next meetings on google calendar
+  doc_url: https://github.com/bacardi55/kalliope-google-calendar
+  logo: google-calendar.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/4Xp2cJH2p2s
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: Gmaps
+  description: Get address / distance / time / directions from Google maps
+  doc_url: https://github.com/bacardi55/kalliope-gmaps
+  logo: google-maps.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/l8pi3Puzliw?list=PLDc8cUmeFkpKdErR5iYTkGJ1-4A05zHIi
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: HUE
+  description: Control the Philips Hue lighting system
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_hue
+  logo: hue.png
+  demos:
+
+- neuron_name: LoxSControl
+  description: Control Loxone home automation system
+  doc_url: https://github.com/andweber/kalliope_neuron_loxscontrol
+  logo: loxscontrol.png
+  demos:
+
+- neuron_name: List_available_orders
+  description: Let kalliope tell you how she can help
+  doc_url: https://github.com/bacardi55/kalliope-list-available-orders
+  logo: question-icon.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/HiqlDHaOtqY
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: MPD
+  description: Play music via an MPD server
+  doc_url: https://github.com/bacardi55/kalliope-mpd
+  logo: cloud-music.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/Zdn7CUQlV1E?list=PLDc8cUmeFkpKdErR5iYTkGJ1-4A05zHIi
+      synapse: fr_synapse.yml
+
+- neuron_name: Openweathermap
+  description: Get the weather of a location
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_openweathermap
+  logo: openweathermap.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/bdkUbggnLuk
+      synapse: fr_synapse.yml
+
+- neuron_name: Pi camera
+  description: Take picture with your picamera
+  doc_url: https://github.com/bacardi55/kalliope-picamera
+  logo: pi-camera.png
+  demos:
+
+- neuron_name: Pushetta
+  description: Send a push message to a remote device like Android/iOS/Windows Phone or Chrome browser
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_pushetta
+  logo: pushetta.png
+  demos:
+
+- neuron_name: Repeat
+  description: Make Kalliope say whatever you want
+  doc_url: https://github.com/bacardi55/kalliope-repeat
+  logo: repeat.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/lNfpX0MYfFI
+      synapse: fr_synapse.yml
+
+- neuron_name: RSS_reader
+  description: Get rss feed from website
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_rss_reader
+  logo: rss.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/BBaO8YVmcbc
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: Slack
+  description: Post and Read message on Slack
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_slack
+  logo: slack.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/x4HGn2RGc30
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: System status
+  description: Get info about the system (cpu, memory, …)
+  doc_url: https://github.com/bacardi55/kalliope-system-status
+  logo: hardware_info.png
+  demos:
+
+- neuron_name: Tasker
+  description: Send a message to Android tasker app
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_tasker
+  logo: tasker.png
+  demos:
+
+- neuron_name: Todotxt
+  description: Manage a todo list (based on self hosted todotxt app) via Kalliope
+  doc_url: https://github.com/bacardi55/kalliope-todotxt
+  logo: todo.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/DLmaspBVd2A?list=PLDc8cUmeFkpKdErR5iYTkGJ1-4A05zHIi
+      synapse: fr_synapse.yml
+
+- neuron_name: Translate
+  description: Translate sentence with google API
+  doc_url: https://github.com/Ultchad/kalliope_neuron_translate
+  logo: translate.png
+  demos:
+
+- neuron_name: Twitter
+  description: Send a Tweet from kalliope
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_twitter
+  logo: twitter.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/--aG1VyFCS0
+      synapse: fr_synapse.yml
+
+- neuron_name: Uber
+  description: Get time and price estimation for a uber ride
+  doc_url: https://github.com/bacardi55/kalliope-uber
+  logo: uber.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/pnb1knix004
+      synapse: fr_synapse.yml
+
+- neuron_name: Wake on LAN
+  description: Wake on lan a computer
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_wake_on_lan
+  logo: wol.png
+  demos:
+
+- neuron_name: Web_scraper
+  description: Read web pages that don't provide RSS feed or APIs (by scraping html)
+  doc_url: https://github.com/bacardi55/kalliope-web-scraper
+  logo: web-scraper.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/PxjtLvpvEFY
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: Wikipedia
+  description: Search for a page on Wikipedia
+  doc_url: https://github.com/kalliope-project/kalliope_neuron_wikipedia
+  logo: wikipedia.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/bdLgRfMGFos
+      synapse: fr_synapse.yml
+      template: fr_template.j2
+
+- neuron_name: Wwtime
+  description: Get time of any place in the world
+  doc_url: https://github.com/bacardi55/kalliope-wwtime
+  logo: wwtime.png
+  demos:
+    - demo_url: https://www.youtube.com/embed/EaCkXMi2q2I
+      synapse: fr_synapse.yml
